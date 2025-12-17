@@ -88,7 +88,7 @@ def render_main_dashboard(df):
     avg_per_order = round(total_sales / total_orders, 2) if total_orders > 0 else 0
 
     # 页面标题
-    st.title("📊销售仪表板")
+    st.title("销售仪表板")
     st.divider()
 
     # 核心指标展示
