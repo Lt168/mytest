@@ -20,6 +20,3 @@ pages = st.navigation([
 # 执行导航（必须，侧边栏才会显示）
 pages.run()
 
-# 3. 首页内容
-st.title("这是首页")
-st.write("主页")
