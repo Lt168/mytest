@@ -4,7 +4,7 @@ import plotly.express as px
 
 # -------------------------- 1. 数据读取函数 --------------------------
 def get_dataframe_from_excel():
-    file_path = "C:\\Users\\712\\Desktop\\（商场销售数据）supermarket_sales.xlsx"
+    file_path = "（商场销售数据）supermarket_sales.xlsx"
     try:
         df = pd.read_excel(
             file_path,
@@ -88,7 +88,7 @@ def render_main_dashboard(df):
     avg_per_order = round(total_sales / total_orders, 2) if total_orders > 0 else 0
 
     # 页面标题
-    st.title("销售仪表板")
+    st.title("📊销售仪表板")
     st.divider()
 
     # 核心指标展示
